@@ -1,3 +1,5 @@
+// Note : Ascii based encoded and decoded tokens
+
 function tokenize(text){
   const tokens = [];
   let i = 0;
@@ -51,6 +53,7 @@ function tokenize(text){
   return tokens;
 }
 
+
 function encodedTokenFun(tokens){
     const encodedToken = []
     tokens.forEach(str => {
@@ -73,7 +76,7 @@ function decodedTokenFun(tokens){
 }
 
 
-// Note : add encoded element array to console.log the decoded tokens
+// Note : Add encoded element array to console.log the decoded tokens
 // console.log(decodedTokenFun([
 //     "116069115116",
 //     "032032032032",
