@@ -64,6 +64,7 @@ Here’s how the API works in action:
 
 
 ## Screenshots
-
-![App Screenshot]('./public/image.png')
+<p align="center">
+  <img src="./public/image.png" alt="Postman Request" width="400" height="300">
+</p>
 
